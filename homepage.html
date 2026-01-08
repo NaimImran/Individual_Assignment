@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Naim's Website Homepage</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<style>
+
+		a:link, a:visited
+		{
+			color: darkkhaki;
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+		a:hover
+		{
+			color:yellow;
+			background-color: black;
+		}
+
+		body
+		{
+			background-image: url(image/abstract1.jpg) ;"
+		}
+	</style>
+</head>
+<body>
+
+	<script>
+		{
+			alert(" Selamat datang ke website Naim")
+		}
+	</script>
+
+	<h1 style="text-align: center; border: 3px solid black; background-color: beige; font-family: Inter Tight; font-size: 30px;"><strong>Welcome to Naim's Website</strong></h1>
+
+	<h1>My Homepage</h1>
+
+	<script>
+		function Naim(a)
+		{
+			var pic;
+			if (a==2)
+			{
+				pic="image/naim1.jpg"
+			}
+			else
+			{
+				pic="image/naim2.jpg"
+			}
+			document.getElementById('gambar').src=pic;
+		}
+	</script>
+
+	<img src="image/naim1.jpg" height="300" id="gambar">
+	<p style="text-align: center;">
+
+	<button type="button" onclick="Naim(1)">Next Picture</button>
+	<button type="button" onclick="Naim(2)">Revert Picture</button>
+
+	</p> 
+
+	<h2>Naim Imran bin Basyirun</h2>
+	<p style="text-align: center">This personal website contains information about myself</p><br>
+
+	<center><a href="biodata.html" target="_blank" id="nextpage">Biodata</a>
+	<a href="experience.html" target="_blank" id="nextpage">Experience</a>
+	<a href="education.html" target="_blank" id="nextpage">Education</a>
+	<a href="family.html" target="_blank" id="nextpage">Family</a>
+	<a href="gallery.html" target="_blank" id="nextpage">Gallery</a></center><br><br>
+
+	<center><audio controls>
+		<source src="audio/music1.mp3" type="audio/mp3">
+
+			Your browser does not support audio element
+
+	</audio></center><br><br>
+
+	<center><iframe src="https://free.timeanddate.com/clock/ia8cr0xd/n5090/tlmy40/fn12/fs18/tcede8d0/pcede8d0/ftb/bls0/brs0/bts4/btcede8d0/th2" frameborder="0" width="125" height="25"></iframe></center>
+
+	
+</body>
+</html>
